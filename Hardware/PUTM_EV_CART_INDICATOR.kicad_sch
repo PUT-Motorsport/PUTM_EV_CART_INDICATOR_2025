@@ -1691,16 +1691,6 @@
 		)
 		(uuid "21c27998-f2a1-415a-8476-45ba7e59e2b0")
 	)
-	(text "Outside \nof\nPCB\n"
-		(exclude_from_sim no)
-		(at 133.35 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64dab7cb-f089-477f-86b3-2cebf1ce37cc")
-	)
 	(text "IMD LED\n"
 		(exclude_from_sim no)
 		(at 36.83 40.64 0)
