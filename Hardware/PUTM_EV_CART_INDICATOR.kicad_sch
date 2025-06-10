@@ -891,6 +891,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PUTM_EV_IMD_SAFETY_2021-rescue:2N7002-Transistor_FET"
 			(pin_names
 				(offset 0)
@@ -1728,10 +1811,6 @@
 		(color 0 0 0 0)
 		(uuid "8d9b8721-1caf-4c99-aa26-9dc84561eb03")
 	)
-	(no_connect
-		(at 33.02 33.02)
-		(uuid "224b6a3b-b7d8-48a2-a60d-df5493f37d16")
-	)
 	(wire
 		(pts
 			(xy 67.31 43.18) (xy 67.31 45.72)
@@ -1844,6 +1923,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 52.07) (xy 67.31 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b31a85b-9841-47fa-b7db-c4762ec8b9bd")
+	)
+	(wire
+		(pts
 			(xy 133.35 49.53) (xy 149.86 49.53)
 		)
 		(stroke
@@ -1861,6 +1950,16 @@
 			(type default)
 		)
 		(uuid "a840ad3a-b911-4cc9-8a55-31574c21f922")
+	)
+	(wire
+		(pts
+			(xy 80.01 55.88) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1c8743-f60c-4def-9414-c5e59d83476f")
 	)
 	(wire
 		(pts
@@ -1891,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "b8dca327-d5f3-41b2-8a5e-545731c81212")
+	)
+	(wire
+		(pts
+			(xy 33.02 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5007ab-2774-4b98-a1d4-a68a518fc065")
 	)
 	(wire
 		(pts
@@ -1962,6 +2071,16 @@
 		)
 		(uuid "fde66843-188b-42fe-9278-15651342795b")
 	)
+	(label "IMD_LED"
+		(at 39.37 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08a4ad69-dbef-496f-9425-bdfb484a95b2")
+	)
 	(label "bulb_ground"
 		(at 133.35 43.18 180)
 		(effects
@@ -1991,6 +2110,16 @@
 			(justify left bottom)
 		)
 		(uuid "5c73d7c6-33a3-4246-966b-9552f3b4257e")
+	)
+	(label "IMD_LED"
+		(at 80.01 55.88 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96b7bf71-7b75-48bf-83b8-dfce17437170")
 	)
 	(label "TSAL_GREEN"
 		(at 39.37 25.4 0)
@@ -2279,6 +2408,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 265.43 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5355aec9-cc48-4299-a097-0be6b9d03161")
+		(property "Reference" "H1"
+			(at 267.97 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 267.97 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 265.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 265.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 120.65 59.69 0)
 		(mirror x)
@@ -2403,7 +2596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1.1k"
 			(at 69.85 49.53 0)
 			(effects
 				(font
@@ -3170,6 +3363,70 @@
 			(project "Cart"
 				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 265.43 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6c6f00-3782-4872-a97d-4109989bbcb2")
+		(property "Reference" "H2"
+			(at 267.97 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 267.97 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "H2")
 					(unit 1)
 				)
 			)
