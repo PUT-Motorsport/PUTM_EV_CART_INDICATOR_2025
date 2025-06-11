@@ -1,4 +1,4 @@
-25212454957597689
+25221203042655953
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59191,6 +59191,41 @@ heatsink
 0
 0
 0
+Include
+Cytat
+
+
+0
+0
+0
+Include
+Cytat2
+
+
+0
+0
+0
+Include
+IM23TS
+IM THT standard
+Relay or Contactor
+0
+8
+8
+Include
+IMB03ITS
+IMB03ITS-2
+Relay or Contactor
+0
+4
+4
+Include
+TB00150008BE
+TB001-500-08BE-1
+Connector
+0
+8
+8
 Include
 TB00250004BE
 TB002-500-04BE-1
