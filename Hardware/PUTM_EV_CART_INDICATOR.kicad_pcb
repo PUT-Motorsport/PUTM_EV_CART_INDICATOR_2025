@@ -105,6 +105,7 @@
 		(property "Reference" "H1"
 			(at 0 -3 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "20afc506-a99e-4779-9d55-facdc824f873")
 			(effects
 				(font
@@ -161,7 +162,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 6553711)
 			(uuid "241eeeb6-3309-477d-916d-ebb90a030e03")
 		)
 		(fp_circle
@@ -173,7 +173,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 6553711)
 			(uuid "03218976-c8c9-41d4-bfa6-7a9195c808c8")
 		)
 		(fp_text user "${REFERENCE}"
@@ -2984,6 +2983,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f3e4d7ac-36f7-48aa-b95d-7e34b5012ebd")
 			(effects
 				(font
@@ -3040,7 +3040,6 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(net 6553711)
 			(uuid "0b6ad2b5-ed9a-49d6-8783-7dd45a35e805")
 		)
 		(fp_circle
@@ -3052,7 +3051,6 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(net 6553711)
 			(uuid "3c842a92-4d29-40ce-84b0-364be513dfab")
 		)
 		(fp_text user "${REFERENCE}"
@@ -3084,6 +3082,7 @@
 		(property "Reference" "H1"
 			(at 0 -3 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6cc28f2b-3479-4320-9652-418accf6d575")
 			(effects
 				(font
@@ -3443,6 +3442,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6fffc309-63a0-4056-99b8-9d1fcee9385b")
 			(effects
 				(font
@@ -5369,7 +5369,7 @@
 		)
 	)
 	(gr_text "{dblquote}Nie czarodziejska tylko\nmagiczna i nie fujarka\ntylko flet...\nmagiczna flet{dblquote}      ~Ojciec Franz Pijo"
-		(at 122.4 72.7 0)
+		(at 119 72.7 0)
 		(layer "B.SilkS")
 		(uuid "4943dc50-afa6-46a5-a960-e1f37eeccf3b")
 		(effects
