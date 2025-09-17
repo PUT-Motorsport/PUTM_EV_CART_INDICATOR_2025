@@ -1,0 +1,607 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2b2b0d64-0832-46b6-9450-cf27328af7a7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "New_Library:I_source"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "I_source_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.0161)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "I_source_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 120.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3c1331c-5df4-462d-83e2-2f82a8efd119")
+	)
+	(junction
+		(at 98.425 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cccd333b-3f84-4bbd-8019-bee7fcbdd495")
+	)
+	(wire
+		(pts
+			(xy 98.425 95.25) (xy 104.775 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb9c34b-23c2-4647-b72f-028558d37d8d")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 130.175 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c90bcd3-989d-4c2b-a890-3f69af9d2efe")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 117.475 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4398b6eb-b99a-42b4-bfca-f03a42b8f5c7")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.315) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7251e3ed-022d-48f7-b929-76352c366187")
+	)
+	(wire
+		(pts
+			(xy 107.95 107.315) (xy 98.425 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88011400-af0a-4b61-a216-c4cf1cade13b")
+	)
+	(wire
+		(pts
+			(xy 113.03 107.315) (xy 120.65 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2dabef-9f6c-4e2f-9bea-a04f58d08c96")
+	)
+	(wire
+		(pts
+			(xy 98.425 107.315) (xy 98.425 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d720a1f4-ec24-4c37-9172-7c0ba1fa6167")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 98.425 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecaf10aa-9b0f-4c91-bb30-e8993340f478")
+	)
+	(hierarchical_label "Input"
+		(shape input)
+		(at 88.9 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "397a67ed-21ad-4346-b6a7-431e860dff86")
+	)
+	(hierarchical_label "Output"
+		(shape output)
+		(at 130.175 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a965c67f-0297-4c30-8467-0b9886c16569")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 107.315 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "525675d3-a031-4373-8396-e4106c343424")
+		(property "Reference" "R11"
+			(at 109.22 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NC"
+			(at 109.22 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 110.49 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "--"
+			(at 110.49 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KDV08DR300ET"
+			(at 110.49 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "588-KDV08DR300ET"
+			(at 110.49 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Ohmite/KDV08DR300ET?qs=l4Gc20tDgJL0eWjgMjSOyQ%3D%3D"
+			(at 110.49 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c9fac32-9244-46c3-8317-c0958a05af0b")
+		)
+		(pin "2"
+			(uuid "03831801-0ea8-436d-a9e3-debe572a9c71")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd/487c36ae-bdf0-4a05-b569-35ce47d04162"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd/5426fc36-ecf7-4cda-8be1-07ec6e51a610"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd/703d0b83-ecb6-44a4-b7c0-8642ecf4367e"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd/fbbceec2-cbfc-41a2-ba2a-394a2baaaa15"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:I_source")
+		(at 111.125 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f29e1e0e-ac9c-4c9e-8622-7b29a80a3a1f")
+		(property "Reference" "U1"
+			(at 111.125 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30mA const current led driver"
+			(at 111.125 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Include:DIO_1-13_DIO-L"
+			(at 111.125 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/AL5890-30P1-13?qs=sGAEpiMZZMtnFuLo2AlFPiAYlxlJUBTwXUu5s31upKx%252BoZPguTR9ww%3D%3D"
+			(at 111.125 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.125 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5162168-1f89-4435-a593-3b4f9bf4a2d2")
+		)
+		(pin "2"
+			(uuid "89e4e391-cf6c-4c26-a84a-e091ef6fb7ca")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd/487c36ae-bdf0-4a05-b569-35ce47d04162"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd/5426fc36-ecf7-4cda-8be1-07ec6e51a610"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd/703d0b83-ecb6-44a4-b7c0-8642ecf4367e"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd/fbbceec2-cbfc-41a2-ba2a-394a2baaaa15"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
