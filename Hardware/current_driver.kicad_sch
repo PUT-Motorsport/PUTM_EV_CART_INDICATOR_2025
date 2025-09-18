@@ -293,6 +293,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Footprint has 3 pins but pin 3 is not connected"
+		(exclude_from_sim no)
+		(at 148.59 100.965 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1da1d671-4eb3-4537-ad5c-65e49ae2b589")
+	)
 	(junction
 		(at 120.65 95.25)
 		(diameter 0)
@@ -325,6 +335,16 @@
 		)
 		(uuid "0c90bcd3-989d-4c2b-a890-3f69af9d2efe")
 	)
+	(polyline
+		(pts
+			(xy 123.825 99.695) (xy 123.825 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2714faca-67b5-4016-b5ec-cef839833313")
+	)
 	(wire
 		(pts
 			(xy 120.65 95.25) (xy 117.475 95.25)
@@ -354,6 +374,16 @@
 			(type default)
 		)
 		(uuid "88011400-af0a-4b61-a216-c4cf1cade13b")
+	)
+	(polyline
+		(pts
+			(xy 116.84 97.155) (xy 123.825 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965ece1d-98e6-44ac-8f96-5ae8b9e0014c")
 	)
 	(wire
 		(pts
@@ -550,7 +580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Include:DIO_1-13_DIO-L"
+		(property "Footprint" "Diode_SMD:D_PowerDI-123"
 			(at 111.125 95.25 0)
 			(effects
 				(font
@@ -559,7 +589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/AL5890-30P1-13?qs=sGAEpiMZZMtnFuLo2AlFPiAYlxlJUBTwXUu5s31upKx%252BoZPguTR9ww%3D%3D"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AL5809Q.pdf"
 			(at 111.125 95.25 0)
 			(effects
 				(font
@@ -569,6 +599,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.125 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/AL5809-30QP1-7?qs=icAhCOE9TbioChqKyh2OuA%3D%3D"
 			(at 111.125 95.25 0)
 			(effects
 				(font
