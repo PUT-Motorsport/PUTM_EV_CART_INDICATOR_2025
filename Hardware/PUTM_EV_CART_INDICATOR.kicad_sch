@@ -821,156 +821,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_TVS"
 			(pin_numbers
 				(hide yes)
@@ -1104,6 +954,156 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3646,7 +3646,7 @@
 	)
 	(rectangle
 		(start 144.145 19.05)
-		(end 181.61 56.515)
+		(end 255.27 56.515)
 		(stroke
 			(width 0.5)
 			(type dash)
@@ -3764,6 +3764,12 @@
 		(uuid "66863153-162e-4fa1-a92e-0a8a428619e7")
 	)
 	(junction
+		(at 93.98 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "785d88d4-2195-48a1-b85c-f1260d7a7ad4")
+	)
+	(junction
 		(at 84.455 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3780,12 +3786,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f8319c6-e422-4934-88ef-c124ee138726")
-	)
-	(junction
-		(at 93.98 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b62d9fe5-dbd2-401f-adf2-dcc85f604495")
 	)
 	(junction
 		(at 46.355 92.075)
@@ -3909,6 +3909,16 @@
 	)
 	(wire
 		(pts
+			(xy 197.485 41.91) (xy 197.485 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f296ce1-575f-4af5-8c69-17f126bde9bd")
+	)
+	(wire
+		(pts
 			(xy 76.835 20.32) (xy 76.835 30.48)
 		)
 		(stroke
@@ -4029,16 +4039,6 @@
 	)
 	(wire
 		(pts
-			(xy 89.535 30.48) (xy 93.98 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512899be-853d-4526-a923-a0164a6ed8db")
-	)
-	(wire
-		(pts
 			(xy 144.78 94.615) (xy 146.05 94.615)
 		)
 		(stroke
@@ -4149,6 +4149,16 @@
 	)
 	(wire
 		(pts
+			(xy 225.425 41.91) (xy 225.425 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683ce60f-5882-4f26-882c-1fadc4c2af02")
+	)
+	(wire
+		(pts
 			(xy 74.93 97.155) (xy 80.01 97.155)
 		)
 		(stroke
@@ -4159,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 30.48) (xy 213.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f117113-236e-4a04-a8d5-5882a3618e77")
+	)
+	(wire
+		(pts
 			(xy 153.035 31.75) (xy 153.035 35.56)
 		)
 		(stroke
@@ -4166,6 +4186,16 @@
 			(type default)
 		)
 		(uuid "7106a044-6704-4219-a500-b91c5adb29bd")
+	)
+	(wire
+		(pts
+			(xy 186.69 30.48) (xy 186.69 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782de47e-b7fc-4b00-9ad2-b279ed392879")
 	)
 	(wire
 		(pts
@@ -4186,6 +4216,36 @@
 			(type default)
 		)
 		(uuid "7c03149a-7f0e-4c9b-bb70-9af6cf41d834")
+	)
+	(wire
+		(pts
+			(xy 225.425 31.115) (xy 225.425 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc87bfe-4783-403f-b87a-bc50866dff88")
+	)
+	(wire
+		(pts
+			(xy 213.36 41.91) (xy 213.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc21f75-bc87-420a-a90c-9304d86b017d")
+	)
+	(wire
+		(pts
+			(xy 238.125 41.91) (xy 238.125 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80087d9c-57b9-4848-8e5b-99de522d0af8")
 	)
 	(wire
 		(pts
@@ -4219,6 +4279,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 30.48) (xy 110.49 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b18fbb6-5bca-429a-9a39-92ed7b882f1e")
+	)
+	(wire
+		(pts
 			(xy 53.34 120.65) (xy 60.96 120.65)
 		)
 		(stroke
@@ -4246,6 +4316,16 @@
 			(type default)
 		)
 		(uuid "96303d8c-b456-4451-8f1a-7da2f8395989")
+	)
+	(wire
+		(pts
+			(xy 186.69 41.275) (xy 186.69 45.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99349eee-9f90-4b64-bdb8-99f4b62f5972")
 	)
 	(wire
 		(pts
@@ -4379,6 +4459,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.125 31.115) (xy 238.125 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd37e427-7b55-43fb-9d54-6ada77c486c6")
+	)
+	(wire
+		(pts
 			(xy 167.64 146.05) (xy 170.815 146.05)
 		)
 		(stroke
@@ -4489,6 +4579,16 @@
 	)
 	(wire
 		(pts
+			(xy 197.485 30.48) (xy 197.485 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3cab14-87f6-4cc0-b0d3-8d5843ee23c4")
+	)
+	(wire
+		(pts
 			(xy 46.355 99.695) (xy 46.355 92.075)
 		)
 		(stroke
@@ -4539,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 30.48) (xy 110.49 30.48)
+			(xy 89.535 30.48) (xy 93.98 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4566,6 +4666,16 @@
 			(justify left bottom)
 		)
 		(uuid "08a4ad69-dbef-496f-9425-bdfb484a95b2")
+	)
+	(label "TSAL_LED"
+		(at 213.36 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08ca245b-e1f0-4cde-a53d-46bac6503d5e")
 	)
 	(label "IMD"
 		(at 169.545 31.115 0)
@@ -4607,6 +4717,16 @@
 		)
 		(uuid "4ac76ab0-8d35-4a25-b998-25d810f81428")
 	)
+	(label "IMD_LED"
+		(at 225.425 31.115 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "543836bd-44b7-4ca2-9567-5d3afa65055c")
+	)
 	(label "TSAL_GREEN"
 		(at 153.035 31.75 0)
 		(effects
@@ -4647,6 +4767,16 @@
 		)
 		(uuid "73314358-0434-45da-b0ce-50abcdce9790")
 	)
+	(label "TSAL_COLUMN"
+		(at 197.485 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d045f9a-b00b-4462-898b-6d5bedc6c1a0")
+	)
 	(label "24V_fused"
 		(at 28.575 79.375 0)
 		(effects
@@ -4656,6 +4786,16 @@
 			(justify left bottom)
 		)
 		(uuid "9ec9903b-b245-4cae-9e56-e6bc099f3007")
+	)
+	(label "IMD_COLUMN"
+		(at 238.125 31.115 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9e4e393-2955-4b5f-a410-12db1ab15984")
 	)
 	(label "TSAL_COLUMN"
 		(at 34.925 24.765 0)
@@ -4923,6 +5063,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 213.36 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "194f25bd-face-43b9-9053-12a345e5ea7b")
+		(property "Reference" "D10"
+			(at 216.535 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 216.535 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Include:SM4T82AY"
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/STMicroelectronics/SMAJ40A-TR?qs=Xb9coVcBX5efWcd556ZCMQ%3D%3D"
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d63f7584-9452-45e9-8180-63ada65bf1da")
+		)
+		(pin "1"
+			(uuid "1400e80e-0f01-4e59-9128-d14e8255124c")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 93.98 140.97 180)
@@ -5165,35 +5375,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 169.545 39.37 90)
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 213.36 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "272ada3e-d9f1-41d5-a2fb-d180553960fd")
-		(property "Reference" "D7"
-			(at 172.72 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 172.72 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 169.545 39.37 0)
+		(uuid "2a870ce5-1199-481c-a52c-71198e3f9ca3")
+		(property "Reference" "#PWR055"
+			(at 213.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,8 +5392,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6J5.0CA?qs=AQlKX63v8RuG43M6coQAFw%3D%3D"
-			(at 169.545 39.37 0)
+		(property "Value" "GND"
+			(at 213.36 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,8 +5409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 169.545 39.37 0)
+		(property "Datasheet" ""
+			(at 213.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,16 +5418,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e0f7e735-8cf4-466f-9f69-b3f9cfa3b5c4")
+		(property "Description" ""
+			(at 213.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e455d60b-7165-40e3-b753-e41ff19013ad")
+			(uuid "5bb5c4a8-1476-4ee4-94de-5b477d0f1860")
 		)
 		(instances
 			(project "PUTM_EV_CART_INDICATOR"
 				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
-					(reference "D7")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5342,7 +5547,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 265.43 45.085 0)
+		(at 210.82 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5351,7 +5556,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b2b0ede-d417-402c-ae5b-3a24553662c5")
 		(property "Reference" "H4"
-			(at 267.97 43.8149 0)
+			(at 213.36 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5565,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.97 46.3549 0)
+			(at 213.36 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5574,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 265.43 45.085 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 45.085 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5592,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 265.43 45.085 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,6 +5604,136 @@
 			(project "PUTM_EV_CART_INDICATOR"
 				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 186.69 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bf02984-2466-4e48-90a7-fd4bc085c58c")
+		(property "Reference" "#PWR053"
+			(at 186.69 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d960e48-ecc3-41af-8f0b-4acabb8f5064")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 238.125 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f05d6ca-ee56-4227-b61a-1fc62756e1fd")
+		(property "Reference" "#PWR057"
+			(at 238.125 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.125 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.125 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.125 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.125 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1156574f-aea5-4c7d-a2d8-141414acf873")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5624,7 +5959,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 265.43 36.195 0)
+		(at 210.82 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5633,7 +5968,7 @@
 		(fields_autoplaced yes)
 		(uuid "53467626-5178-4f83-9939-b226b8974df9")
 		(property "Reference" "H3"
-			(at 267.97 34.9249 0)
+			(at 213.36 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5977,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.97 37.4649 0)
+			(at 213.36 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5986,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 265.43 36.195 0)
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 36.195 0)
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +6004,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 265.43 36.195 0)
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +6023,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 265.43 17.78 0)
+		(at 210.82 79.375 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5697,7 +6032,7 @@
 		(fields_autoplaced yes)
 		(uuid "5355aec9-cc48-4299-a097-0be6b9d03161")
 		(property "Reference" "H1"
-			(at 267.97 16.5099 0)
+			(at 213.36 78.1049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5706,7 +6041,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.97 19.0499 0)
+			(at 213.36 80.6449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +6050,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 265.43 17.78 0)
+			(at 210.82 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +6059,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 17.78 0)
+			(at 210.82 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6068,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 265.43 17.78 0)
+			(at 210.82 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,6 +6080,76 @@
 			(project ""
 				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 225.425 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58262a20-725a-4041-a167-1553acd457bf")
+		(property "Reference" "D11"
+			(at 228.6 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 228.6 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Include:SM4T82AY"
+			(at 225.425 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/STMicroelectronics/SMAJ40A-TR?qs=Xb9coVcBX5efWcd556ZCMQ%3D%3D"
+			(at 225.425 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 225.425 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d3996ae-00ca-478f-9922-e183a70037c4")
+		)
+		(pin "1"
+			(uuid "1b73ed18-43c5-4d85-bd6d-082eb910ea9f")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5817,6 +6222,71 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 225.425 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c5be22a-91a9-4427-8157-4833697d4e7f")
+		(property "Reference" "#PWR056"
+			(at 225.425 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 225.425 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.425 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.425 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 225.425 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a30ba14-0f8d-493d-b23c-9b992a8bac21")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
 		(at 169.545 45.085 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5882,16 +6352,16 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 153.035 39.37 90)
+		(at 197.485 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70c25620-a4e2-4dff-accf-b171e9c3ef41")
-		(property "Reference" "D5"
-			(at 156.21 38.0999 90)
+		(uuid "6f548d92-cf16-4006-8091-ef70b812bcb7")
+		(property "Reference" "D9"
+			(at 200.66 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +6370,7 @@
 			)
 		)
 		(property "Value" "D_TVS"
-			(at 156.21 40.6399 90)
+			(at 200.66 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5908,8 +6378,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 153.035 39.37 0)
+		(property "Footprint" "Include:SM4T82AY"
+			(at 197.485 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,8 +6387,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SMA6J5.0CA?qs=AQlKX63v8RuG43M6coQAFw%3D%3D"
-			(at 153.035 39.37 0)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/STMicroelectronics/SMAJ40A-TR?qs=Xb9coVcBX5efWcd556ZCMQ%3D%3D"
+			(at 197.485 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +6397,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 153.035 39.37 0)
+			(at 197.485 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,15 +6406,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "857e178b-11f6-4854-a6f5-081c4d3b6d00")
+			(uuid "db499481-817c-485d-a734-2c9b9e857ecd")
 		)
 		(pin "1"
-			(uuid "8e10deee-da68-43f4-9926-e0a1ee4ed54a")
+			(uuid "fef65ab9-ac38-4489-a43a-fe54ff6ba958")
 		)
 		(instances
-			(project ""
+			(project "PUTM_EV_CART_INDICATOR"
 				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
-					(reference "D5")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6113,76 +6583,6 @@
 			(project "PUTM_EV_CART_INDICATOR"
 				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 93.98 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84371605-cd1d-40c9-b79b-1fec1c2c771b")
-		(property "Reference" "D1"
-			(at 96.52 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 96.52 35.2424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 93.98 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Nexperia/PMEG10020ELXE-QX?qs=sGAEpiMZZMtbRapU8LlZD8qu4xuMq4%252BS2YGbh9%2F5POcrXkbSfgqCUg%3D%3D"
-			(at 93.98 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 93.98 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e75dd051-a216-418d-95d1-262cbc81671d")
-		)
-		(pin "1"
-			(uuid "f253657a-24b6-4c3e-a607-937f1dffdb6b")
-		)
-		(instances
-			(project ""
-				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6543,6 +6943,142 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 186.69 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99138973-f9cd-4458-a522-43975b0939e0")
+		(property "Reference" "#PWR052"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 186.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07efffb4-5b27-48fe-878b-5c3151dc4515")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 238.125 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a59a2ad-8384-4404-959c-7461cb1680fe")
+		(property "Reference" "D12"
+			(at 241.3 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 241.3 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Include:SM4T82AY"
+			(at 238.125 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/STMicroelectronics/SMAJ40A-TR?qs=Xb9coVcBX5efWcd556ZCMQ%3D%3D"
+			(at 238.125 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 238.125 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ab535cc-ad35-4151-9fbe-9da57e3fab4a")
+		)
+		(pin "1"
+			(uuid "16c3af1a-9c50-43fb-ad5b-d31eece12516")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 65.405 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6784,6 +7320,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 153.035 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b997a894-70b3-463e-90a7-436a1a48aced")
+		(property "Reference" "D14"
+			(at 156.21 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 156.21 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Include:SM4T82AY"
+			(at 153.035 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/STMicroelectronics/SMAJ40A-TR?qs=Xb9coVcBX5efWcd556ZCMQ%3D%3D"
+			(at 153.035 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 153.035 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "186efc65-74c9-4a19-91ea-33fc77b5bbcf")
+		)
+		(pin "1"
+			(uuid "391e7c3a-6161-49dd-b339-b62a950f6029")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 97.79 140.97 90)
 		(unit 1)
@@ -6843,6 +7449,71 @@
 			(project "PUTM_EV_CART_INDICATOR"
 				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 197.485 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfe2bfeb-33f9-4df8-90da-9f2f9ce748a4")
+		(property "Reference" "#PWR054"
+			(at 197.485 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 197.485 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 197.485 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 197.485 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 197.485 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65b17e00-92d2-4d95-966b-bbae130eb8a3")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7114,8 +7785,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 169.545 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cec0e02f-d5b9-4fbb-aecf-faae50e1e0f7")
+		(property "Reference" "D13"
+			(at 172.72 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 172.72 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Include:SM4T82AY"
+			(at 169.545 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/STMicroelectronics/SMAJ40A-TR?qs=Xb9coVcBX5efWcd556ZCMQ%3D%3D"
+			(at 169.545 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 169.545 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0360b8cd-fd25-4f31-8723-fedb7ada6dfb")
+		)
+		(pin "1"
+			(uuid "9e9ac9c3-7676-4ed2-b168-243b2a699ddd")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 265.43 26.67 0)
+		(at 210.82 88.265 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7124,7 +7865,7 @@
 		(fields_autoplaced yes)
 		(uuid "da6c6f00-3782-4872-a97d-4109989bbcb2")
 		(property "Reference" "H2"
-			(at 267.97 25.3999 0)
+			(at 213.36 86.9949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7874,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.97 27.9399 0)
+			(at 213.36 89.5349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +7883,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 265.43 26.67 0)
+			(at 210.82 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7892,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 26.67 0)
+			(at 210.82 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7901,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 265.43 26.67 0)
+			(at 210.82 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,6 +8306,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 93.98 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3cf9f09-bd6b-4a61-84b3-7f4dcc58bf35")
+		(property "Reference" "D8"
+			(at 97.155 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 97.155 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Include:SODFL5026X125N"
+			(at 93.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Micro-Commercial-Components-MCC/SMAF4740A-TP?qs=%252BXxaIXUDbq1MJ0KKLTNFXg%3D%3D"
+			(at 93.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 93.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2e1446c-ab3a-4949-957a-77b5c879eafe")
+		)
+		(pin "1"
+			(uuid "53b547e2-b897-4517-a9e2-75362f715032")
+		)
+		(instances
+			(project ""
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Samacsys_kicad_sym:IM07DTS")
 		(at 49.53 138.43 0)
 		(unit 1)
@@ -7773,6 +8584,76 @@
 			(project ""
 				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 186.69 37.465 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa4343a3-32f5-4d3a-ae12-b9d92a1db566")
+		(property "Reference" "D15"
+			(at 189.865 36.1949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 189.865 38.7349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Include:SM4T82AY"
+			(at 186.69 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/STMicroelectronics/SMAJ40A-TR?qs=Xb9coVcBX5efWcd556ZCMQ%3D%3D"
+			(at 186.69 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 186.69 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "342207ba-01d7-406a-846b-a7ebdefadbef")
+		)
+		(pin "1"
+			(uuid "5c4a0468-da8f-477c-af63-ec49eb4006bd")
+		)
+		(instances
+			(project "PUTM_EV_CART_INDICATOR"
+				(path "/273ec47a-aafc-4766-bd44-1878375efcdd"
+					(reference "D15")
 					(unit 1)
 				)
 			)
